@@ -65,7 +65,7 @@
     * [JavaScript设计模式](前端开发/JavaScript模块/JavaScript设计模式.md)
         * [Singleton](前端开发/JavaScript模块/JavaScript设计模式/singleton.md)
         
-    * [MV\* Patterns](前端开发/JavaScript模块/MV_Patterns.md)
+    * [MV_Patterns](前端开发/JavaScript模块/MV_Patterns.md)
         * [MVC](前端开发/JavaScript模块/MV_Patterns/mvc.md)
         * [MVP](前端开发/JavaScript模块/MV_Patterns/mvp.md)
         * [MVVM](前端开发/JavaScript模块/MV_Patterns/mvvm.md)

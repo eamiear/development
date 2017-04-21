@@ -70,7 +70,7 @@
         * [MVP](前端开发/JavaScript模块/MV_Patterns/mvp.md)
         * [MVVM](前端开发/JavaScript模块/MV_Patterns/mvvm.md)
         
-    * [JavaScript框架\/库](前端开发/JavaScript模块/JavaScript框架.md)
+    * [JavaScript框架_库](前端开发/JavaScript模块/JavaScript框架.md)
       * [Backbone](前端开发/JavaScript模块/JavaScript框架/backbone.md)
       * [Angular](前端开发/JavaScript模块/JavaScript框架/angular.md)
         * [AngularJS基础概念](前端开发/JavaScript模块/JavaScript框架/AngularJS基础概念.md)

@@ -1,0 +1,53 @@
+{
+    "title": "开发",
+    "description": "记录开发中的一些知识点",
+    "author": "eamiear",
+    "output.name": "development",
+    "language": "zh-hans",
+    "gitbook": "3.2.2",
+    "root": ".",
+    "theme-default": {
+        "showLevel": true
+    },
+    "plugins": [ 
+        "-search",
+        "search-pro",
+        "advanced-emoji",
+        "emphasize",
+        "include-codeblock",
+        "ace",
+        "splitter",
+        "favicon",
+        "expandable-chapters-small",
+        "sitemap-general",
+        "tbfed-pagefooter",
+        "anchor-navigation-ex"
+        
+    ],
+    "pluginsConfig": {
+        "tbfed-pagefooter": {
+            "copyright":"Copyright © eamiear",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "anchor-navigation-ex": {
+            "isRewritePageTitle": false,
+            "isShowTocTitleIcon": true,
+            "tocLevel1Icon": "fa fa-hand-o-right",
+            "tocLevel2Icon": "fa fa-hand-o-right",
+            "tocLevel3Icon": "fa fa-hand-o-right"
+        },
+        "sitemap-general": {
+            "prefix": "https://eamiear.gitbooks.io"
+        },
+        "favicon": {
+            "shortcut": "assets/images/favicon.ico",
+            "bookmark": "assets/images/favicon.ico",
+            "appleTouch": "assets/images/apple-touch-icon.png"
+        },
+        "include-codeblock": {
+            "template": "ace",
+            "theme": "monokai"
+        }
+    }
+}

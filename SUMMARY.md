@@ -81,8 +81,6 @@
       * [jQuery](前端开发/JavaScript模块/JavaScript框架/jquery.md)
         * [jQuery工具方法](前端开发/JavaScript模块/JavaScript框架/jQuery/jquery工具方法.md)
         * [判断数据类型的方法](前端开发/JavaScript模块/JavaScript框架/jQuery/判断数据类型的方法.md)
-        * [Ajax](前端开发/JavaScript模块/JavaScript框架/jQuery/Ajax.md)
-          * [Ajax操作](前端开发/JavaScript模块/JavaScript框架/jQuery/Ajax/ajax操作.md)
         * [jQuery插件开发](前端开发/JavaScript模块/JavaScript框架/jQuery/jquery插件开发.md)
       * [Knockout](前端开发/JavaScript模块/JavaScript框架/knockout.md)
       * [JSON](前端开发/JavaScript模块/JSON.md)

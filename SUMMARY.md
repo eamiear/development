@@ -103,16 +103,15 @@
 	* [Jade](前端开发/JavaScript模块/模板引擎/jade.md)
 	* [Laytpl](前端开发/JavaScript模块/模板引擎/laytpl.md)
 
-### [测试](前端开发/JavaScript模块/测试.md)
-* [单元测试](前端开发/JavaScript模块/测试/单元测试.md)
+* [测试](前端开发/JavaScript模块/测试.md)
+    * [单元测试](前端开发/JavaScript模块/测试/单元测试.md)
 
-### [JSDOC](前端开发/JavaScript模块/JSDOC/jsdoc.md)
+* [JSDOC](前端开发/JavaScript模块/JSDOC/jsdoc.md)
 
-### [JavaScript资源](前端开发/JavaScript模块/JavaScript资源/JavaScript资源.md)
+* [JavaScript资源](前端开发/JavaScript模块/JavaScript资源/JavaScript资源.md)
 
 ### [WebApp](前端开发/WebApp/app-module.md)
-
-### [布局](前端开发/WebApp/布局/layout.md)
+* [布局](前端开发/WebApp/布局/layout.md)
 
 ### [前端工具](前端开发/前端工具.md)
 * [任务管理工具](前端开发/前端工具/任务管理工具.md)

@@ -3,6 +3,17 @@
 
 ####**创建模板**
 使用一个type="text/html"的script标签存放模板：
+```html
+<script id="test" type="text/html">
+<h1>{{title}}</h1>
+<ul>
+    {{each list as value i}}
+        <li>索引 {{i + 1}} ：{{value}}</li>
+    {{/each}}
+</ul>
+</script>
+```
+
 
 
 

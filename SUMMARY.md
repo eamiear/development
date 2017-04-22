@@ -87,17 +87,13 @@
         * [JSON验证](前端开发/JavaScript模块/JSON/json验证.md)
       * [插件](前端开发/JavaScript模块/插件.md)
         * [BootstrapTable](前端开发/JavaScript模块/插件/bootstraptable.md)
-      * [模板引擎](前端开发/JavaScript模块/模板引擎.md)
-        * [artTemplate](前端开发/JavaScript模块/模板引擎/arttemplate.md)
-        * [mustache模板](前端开发/JavaScript模块/模板引擎/mustache.md)
-        * [kissy模板](前端开发/JavaScript模块/模板引擎/kissy.md)
-        * [百度Template](前端开发/JavaScript模块/模板引擎/Baidutemplate.md)
-        * [Jade](前端开发/JavaScript模块/模板引擎/jade.md)
-        * [Laytpl](前端开发/JavaScript模块/模板引擎/laytpl.md)
+      
       * [测试](前端开发/JavaScript模块/测试.md)
         * [单元测试](前端开发/JavaScript模块/测试/单元测试.md)
       * [JSDOC](前端开发/JavaScript模块/JSDOC/jsdoc.md)
       * [JavaScript资源](前端开发/JavaScript模块/JavaScript资源/JavaScript资源.md)
+      
+      
   * [WebApp](前端开发/WebApp/app-module.md)
     * [布局](前端开发/WebApp/布局/layout.md)
     
@@ -113,16 +109,26 @@
         * [SASS使用](前端开发/前端工具/SASSCompass/SASS/sass.md)
       * [Compass](前端开发/前端工具/SASSCompass/Compass.md)
         * [Compass使用](前端开发/前端工具/SASSCompass/Compass/compass.md)
+        
+        
   * [性能优化](前端开发/性能优化.md)
     * [编码规范](前端开发/性能优化/编码规范.md)
+    
+    
   * [UI](前端开发/UI.md)
     * [Retina](前端开发/UI/retina.md)
     * [字体单位](前端开发/UI/字体单位.md)
+    
+    
   * [前端相关](前端开发/前端相关.md)
     * [前端相关](前端开发/前端相关/前端相关.md)
     * [浏览器工作机制](前端开发/前端相关/浏览器工作机制.md)
+    
+    
   * [前端面试](前端开发/前端面试.md)
     * [资源](前端开发/前端面试/资源.md)
+    
+    
   * [开发知识点](前端开发/开发知识点.md)
     * [IE](前端开发/开发知识点/IE.md)
       * [IE-blur事件](前端开发/开发知识点/IE/IE-blur事件.md)

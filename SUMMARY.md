@@ -217,13 +217,11 @@
 
 ## 其他
 
-### [Gis 开发](其他/gis开发.md)
-
+### [Gis开发](其他/gis开发.md)
 * [arcgisjs](其他/gis开发/arcgis.md)
 	* [arcgisjs](其他/gis开发/arcgisjs/arcgisjs.md)
 
 ### [辅助工具](其他/辅助工具.md)
-
 * [gitbook](其他/辅助工具/gitbook.md)
 	* [gitbook使用](其他/辅助工具/gitbook/gitbook使用.md)
 

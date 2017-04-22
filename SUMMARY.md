@@ -2,7 +2,7 @@
 
 ## 前端开发
 
-  * [HTML模块](前端开发/HTML模块.md)
+  [HTML模块](前端开发/HTML模块.md)
     * [HTML5](前端开发/HTML模块/HTML5.md)
         * [本地存储](前端开发/HTML模块/HTML5/本地存储.md)
         * [File System API](前端开发/HTML模块/HTML5/html5文件操作.md)
@@ -28,7 +28,7 @@
         * [上传](前端开发/HTML模块/HTML相关/上传.md)
         * [MIME Type](前端开发/HTML模块/HTML相关/mime_type.md)
         
-  * [CSS模块](前端开发/CSS模块.md)
+[CSS模块](前端开发/CSS模块.md)
     * [CSS基础](前端开发/CSS模块/CSS基础.md)
         * [盒子模型](前端开发/CSS模块/CSS基础/盒模型.md)
         * [文档流](前端开发/CSS模块/CSS基础/文档流.md)

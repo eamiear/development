@@ -87,7 +87,13 @@
         * [JSON验证](前端开发/JavaScript模块/JSON/json验证.md)
       * [插件](前端开发/JavaScript模块/插件.md)
         * [BootstrapTable](前端开发/JavaScript模块/插件/bootstraptable.md)
-      
+      * [模板引擎](前端开发/JavaScript模块/模板引擎.md)
+        * [artTemplate](前端开发/JavaScript模块/模板引擎/arttemplate.md)
+        * [mustache模板](前端开发/JavaScript模块/模板引擎/mustache.md)
+        * [kissy模板](前端开发/JavaScript模块/模板引擎/kissy.md)
+        * [百度Template](前端开发/JavaScript模块/模板引擎/Baidutemplate.md)
+        * [Jade](前端开发/JavaScript模块/模板引擎/jade.md)
+        * [Laytpl](前端开发/JavaScript模块/模板引擎/laytpl.md)
       
       * [测试](前端开发/JavaScript模块/测试.md)
         * [单元测试](前端开发/JavaScript模块/测试/单元测试.md)
@@ -171,7 +177,9 @@
       * [nvm](后台开发/NodeJS/工具/nvm.md)
       * [nrm](后台开发/NodeJS/工具/nrm.md)
       * [pm2](后台开发/NodeJS/工具/pm2.md)
+      
   * [Java](后台开发/Java.md)
+  
   * [开发知识点](后台开发/开发知识点.md)
     * [Tomcat](后台开发/开发知识点/Tomcat.md)
       * [tomcat一闪而过](后台开发/开发知识点/Tomcat/tomcat一闪而过.md)
@@ -184,6 +192,7 @@
       * [jsp read properties](后台开发/开发知识点/springmvc/jsp read properties.md)
     * [ide](后台开发/开发知识点/ide.md)
       * [复制已有项目构建新项目（部署报错）](后台开发/开发知识点/ide/复制已有项目构建新项目（部署报错）.md)
+      
   * [PHP](后台开发/PHP.md)
     * [wamp](后台开发/PHP/wamp.md)
       * [IP访问-端口修改](后台开发/PHP/wamp/IP访问-端口修改.md)
@@ -201,6 +210,7 @@
 
 * [gitbook](辅助工具/gitbook.md)
   * [gitbook使用](辅助工具/gitbook/gitbook使用.md)
+  
 * [IDE](辅助工具/IDE.md)
   * [IntelliJ IDEA](辅助工具/IDE/IntelliJ-IDEA.md)
 

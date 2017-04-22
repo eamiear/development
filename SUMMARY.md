@@ -216,26 +216,27 @@
     * [复制已有项目构建新项目（部署报错）](后台开发/开发知识点/ide/复制已有项目构建新项目（部署报错）.md)
 
 ## 其他
-### Gis 开发
 
-* [arcgisjs](gis开发/arcgis.md)
-	* [arcgisjs](gis开发/arcgisjs/arcgisjs.md)
+### [Gis 开发](其他/gis开发.md)
 
-### 辅助工具
+* [arcgisjs](其他/gis开发/arcgis.md)
+	* [arcgisjs](其他/gis开发/arcgisjs/arcgisjs.md)
 
-* [gitbook](辅助工具/gitbook.md)
-	* [gitbook使用](辅助工具/gitbook/gitbook使用.md)
+### [辅助工具](其他/辅助工具.md)
 
-* [IDE](辅助工具/IDE.md)
-	* [IntelliJ IDEA](辅助工具/IDE/IntelliJ-IDEA.md)
+* [gitbook](其他/辅助工具/gitbook.md)
+	* [gitbook使用](其他/辅助工具/gitbook/gitbook使用.md)
 
-## 学习文件
+* [IDE](其他/辅助工具/IDE.md)
+	* [IntelliJ IDEA](其他/辅助工具/IDE/IntelliJ-IDEA.md)
 
-* [思维导图](学习文件/思维导图.md)
-	* [Babel](学习文件/思维导图/Babel.md)
+## [学习文件](其他/学习文件.md)
 
-### OCX
+* [思维导图](其他/学习文件/思维导图.md)
+	* [Babel](其他/学习文件/思维导图/Babel.md)
 
-* [命令行注册](OCX/命令行注册.md)
+### [OCX](其他/OCX.md)
+
+* [命令行注册](其他/OCX/命令行注册.md)
 
 

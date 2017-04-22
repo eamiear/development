@@ -1,7 +1,6 @@
 # artTemplate
 > `<script type="text/html"></script>`标签来存放模板（由于浏览器不支持这种类型的声明，它存放的代码不会当作 `js `运行，代码也不会被显示出来）
 
-
 ####**创建模板**
 使用一个type="text/html"的script标签存放模板：
 

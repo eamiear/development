@@ -195,6 +195,14 @@
 	
 ### [Java](后台开发/Java.md)
 
+### [PHP](后台开发/PHP.md)
+* [wamp](后台开发/PHP/wamp.md)
+* [IP访问-端口修改](后台开发/PHP/wamp/IP访问-端口修改.md)
+
+### [MySQL](后台开发/MySQL.md)
+* [问题](后台开发/MySQL/question.md)
+* [拒绝访问数据库](后台开发/MySQL/question/拒绝访问数据库.md)
+
 ### [开发知识点](后台开发/开发知识点.md)
     * [Tomcat](后台开发/开发知识点/Tomcat.md)
     * [tomcat一闪而过](后台开发/开发知识点/Tomcat/tomcat一闪而过.md)
@@ -208,20 +216,13 @@
     * [ide](后台开发/开发知识点/ide.md)
         * [复制已有项目构建新项目（部署报错）](后台开发/开发知识点/ide/复制已有项目构建新项目（部署报错）.md)
 
-### [PHP](后台开发/PHP.md)
-* [wamp](后台开发/PHP/wamp.md)
-* [IP访问-端口修改](后台开发/PHP/wamp/IP访问-端口修改.md)
-
-### [MySQL](后台开发/MySQL.md)
-* [问题](后台开发/MySQL/question.md)
-* [拒绝访问数据库](后台开发/MySQL/question/拒绝访问数据库.md)
-
-## Gis 开发
+## 其他
+### Gis 开发
 
 * [arcgisjs](gis开发/arcgis.md)
 	* [arcgisjs](gis开发/arcgisjs/arcgisjs.md)
 
-## 辅助工具
+### 辅助工具
 
 * [gitbook](辅助工具/gitbook.md)
 	* [gitbook使用](辅助工具/gitbook/gitbook使用.md)
@@ -229,12 +230,12 @@
 * [IDE](辅助工具/IDE.md)
 	* [IntelliJ IDEA](辅助工具/IDE/IntelliJ-IDEA.md)
 
-## 学习文件
+##3 学习文件
 
 * [思维导图](学习文件/思维导图.md)
 	* [Babel](学习文件/思维导图/Babel.md)
 
-## OCX
+### OCX
 
 * [命令行注册](OCX/OCX命令行注册.md)
 

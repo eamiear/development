@@ -230,7 +230,7 @@
 * [IDE](辅助工具/IDE.md)
 	* [IntelliJ IDEA](辅助工具/IDE/IntelliJ-IDEA.md)
 
-##3 学习文件
+## 学习文件
 
 * [思维导图](学习文件/思维导图.md)
 	* [Babel](学习文件/思维导图/Babel.md)

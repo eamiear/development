@@ -4,7 +4,8 @@
 
 ####**创建模板**
 使用一个type="text/html"的script标签存放模板：
-```html
+
+{%ace lang='html'%}
 <script id="test" type="text/html">
 <h1>{{title}}</h1>
 <ul>
@@ -13,8 +14,8 @@
     {{/each}}
 </ul>
 </script>
+{%endace%}
 
-```
 ####**渲染模板**
 
 ```JavaScript

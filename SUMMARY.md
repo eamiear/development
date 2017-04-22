@@ -110,7 +110,7 @@
 
 * [JavaScript资源](前端开发/JavaScript模块/JavaScript资源/JavaScript资源.md)
 
-### [WebApp](前端开发/WebApp/app-module.md)
+### [WebApp](前端开发/WebApp.md)
 * [布局](前端开发/WebApp/layout.md)
 
 ### [前端工具](前端开发/前端工具.md)

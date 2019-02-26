@@ -3,6 +3,10 @@
 
 * [在线编辑器](http://www.javascriptoo.com/fabric-js)
 
+# 全景|AR|VR
+1. [krpano](https://krpano.com/)
+2. [示例代码： a8cm ](https://pan.baidu.com/s/1CiEvbbNCEA57U0EMMCReNA)
+
 ## 前端工具
 1. ∞ [javascriptoo | javascript 库在线示例或编辑](http://www.javascriptoo.com/)
 

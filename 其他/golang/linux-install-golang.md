@@ -55,7 +55,7 @@ tar -zxzf go1.12.4.linux-amd64.tar.gz  -C /usr/local
 2. 在底部添加以下配置内容
    
    ```js
-    export GOPATH=/home/kezai/golang/gopath
+    export GOPATH=/opt/go/gopath
     export GOROOT=/usr/local/go
     export GOARCH=386
     export GOOS=linux

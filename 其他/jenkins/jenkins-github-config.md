@@ -41,3 +41,24 @@ token生成后，拷贝出来备用。
 6. 选择凭据
 
     ![token](snapshot/jenkins_github_server_token_use.png)
+
+
+## 新建一个自由风格的项目
+
+1. 创建项目任务
+
+    ![task](snapshot/jenkins_github_create_task.png)
+
+2. 配置 GitHub 项目地址
+
+    ![general](snapshot/jenkins_github_task_general_config.png)
+
+3. 源码管理配置
+
+    ![general2](snapshot/jenkins_github_task_general_config2.png)
+
+4. 配置构建脚本（shell）
+   
+    [jenkins build shell](jenkins-build-shell.md)
+
+5. 保存后构建

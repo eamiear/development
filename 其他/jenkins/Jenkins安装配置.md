@@ -144,4 +144,9 @@ Caused by: java.net.UnknownHostException: server-test-211: Name or service not k
 ```
 
 ### 查看防火墙
+```
 vi /etc/sysconfig/iptables
+```
+
+
+## 通过 `Tomcat` 安装 `Jenkins`

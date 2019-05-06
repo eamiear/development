@@ -55,4 +55,6 @@ total 12
 
 ## 新建项目
 
+> 项目链接需要使用 `SSH`， `Https` 报错
+
 ![task](snapshot/jenkins_github_private_repo_task.png)

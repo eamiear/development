@@ -1,4 +1,6 @@
-# vi 指令： 打开、编辑文件
+# Linux 指令
+
+## vi 指令： 打开、编辑文件
 > 如编辑hosts文件   ```vi /etc/hosts```
 
 1. 打开文件
@@ -26,7 +28,9 @@ vi /etc/hosts
 5. 退出 vi 编辑界面
 :quit + Enter(回车)
 
-# 文件操作相关
+
+## 文件操作相关
+
 1. 创建文件夹
 mkdir [文件夹名称]
 
@@ -41,4 +45,20 @@ rm -rf [文件夹名称]
 
 4. 删除文件
 rm [文件名称]
+
+
+## 软链
+
+创建软链
+
+```bash
+ln -S /home/kz/software/node/bin/node /usr/local/bin/node
+```
+
+删除软链
+
+```bash
+rm -rf /usr/local/bin/node
+```
+
 

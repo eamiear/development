@@ -30,3 +30,7 @@ ssh -o StrictHostKeyChecking=no root@192.168.200.211 'rm -rf /home/kz/server/ngi
 
 scp -r /root/.jenkins/workspace/github_test/* /home/kz/server/nginx/html/github_test/
 ```
+
+## 参考
+
+[ssh免密码登录](http://www.cnblogs.com/xubing-613/p/6844564.html)

@@ -55,6 +55,12 @@ rm [文件名称]
 ln -S /home/kz/software/node/bin/node /usr/local/bin/node
 ```
 
+或
+
+```
+ln -S /home/kz/software/node/bin/node /usr/local/bin/
+```
+
 删除软链
 
 ```bash

@@ -50,6 +50,10 @@ total 12
 
 ![private repo](snapshot/jenkins_github_private-repo.png)
 
+或在 全局凭据中进行添加
+
+![credentials](snapshot/jenkins_github_private_repo_credentials1.png)
+
 在 "凭据" 面板中查看凭据信息
 ![private repo](snapshot/jenkins_github_private_repo_credentials.png)
 

@@ -20,6 +20,7 @@ cp -r /root/.jenkins/workspace/github_test/dist/* /home/kz/server/nginx/html/git
 > 
 > `cp -r /root/.jenkins/workspace/github_test/* /home/kz/server/nginx/html/github_test/` 将 `jenkins` 源码工程的目标资源复制到 `nginx` 对应的目录下
 
+
 ## 远程服务
 
 > 将一台服务器中子源拷贝到其他机器上，即 Jenkins 与 nginx 分别部署在不同的服务器上。

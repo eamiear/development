@@ -5,7 +5,7 @@
 > 如编辑hosts文件   ```vi /etc/hosts```
 
 1. 打开文件
-```
+```bash
 vi /etc/hosts
 ```
 
@@ -32,19 +32,21 @@ vi /etc/hosts
 8. :e! 放弃所有修改
 
 5. 退出 vi 编辑界面
-```
-:quit + Enter(回车)
+```bash
+[root@server-test-211 ~]# :quit + Enter(回车)
+
+[root@server-test-211 ~]# :q
 ```
 
 ## 文件操作相关
 
 1. 创建文件夹
-```
-mkdir [文件夹名称]
+```bash
+[root@server-test-211 ~]#  mkdir [文件夹名称]
 ```
 2. 删除文件夹
-```
-rm -rf [文件夹名称]
+```bash
+[root@server-test-211 ~]# rm -rf [文件夹名称]
 ```
 
 3. 创建文件
@@ -54,8 +56,8 @@ rm -rf [文件夹名称]
    - 退出编辑
 
 4. 删除文件
-```
-rm [文件名称]
+```bash
+[root@server-test-211 ~]# rm [文件名称]
 ```
 
 
@@ -64,19 +66,25 @@ rm [文件名称]
 创建软链
 
 ```bash
-ln -S /home/kz/software/node/bin/node /usr/local/bin/node
+[root@server-test-211 ~]#  ln -S /home/kz/software/node/bin/node /usr/local/bin/node
 ```
 
 或
 
-```
-ln -S /home/kz/software/node/bin/node /usr/local/bin/
+```bash
+[root@server-test-211 ~]# ln -s /home/kz/software/node/bin/node /usr/local/bin/
 ```
 
 删除软链
 
 ```bash
-rm -rf /usr/local/bin/node
+[root@server-test-211 ~]# rm -rf /usr/local/bin/node
 ```
 
+## 获取当前目录
+
+```bash
+[root@server-test-211 bin]# pwd
+/home/kezai/apache-tomcat-8.5.40/bin
+```
 

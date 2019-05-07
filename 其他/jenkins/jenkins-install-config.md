@@ -39,12 +39,8 @@
 
 1. 查询系统已安装的jdk
    ```bash
-    [root@server-test-211 software]# rpm -qa|grep java
-   ```
-   ```bash
+   [root@server-test-211 software]# rpm -qa|grep java
    [root@server-test-211 software]# rpm -qa|grep jdk
-   ```
-   ```bash
    [root@server-test-211 software]# rpm -qa|grep gcj
    ```
    ```bash

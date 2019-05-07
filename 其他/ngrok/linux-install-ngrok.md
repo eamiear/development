@@ -3,7 +3,7 @@
 ## 安装环境
 检测 `gcc` 和 `git` 是否已安装（用于下载ngrok源码）
 
-```
+```bash
 [root@server-test-211 home]# gcc -v
 
 [root@server-test-211 home]# git -v
@@ -12,7 +12,7 @@
 
 如果没有安装，则进行安装
 
-```
+```bash
 [root@server-test-211 home]# yum install gcc -y
 
 [root@server-test-211 home]# yum install git -y
@@ -25,18 +25,18 @@
 ## 在服务器搭建`ngrok`服务
 
 1. 下载`ngrok`源码
-   ```
+   ```bash
     [root@server-test-211 server]# git clone https://github.com/inconshreveable/ngrok.git
    ```
 2. 生成证书
    
-   ```
+   ```bash
     [root@server-test-211 server]# cd ngrok
 
    ```
 
     配置域名：
-   ```
+   ```bash
     [root@server-test-211 ngrok]# export NGROK_DOMAIN="tunnel.ob.me"
 
     [root@server-test-211 ngrok]# openssl genrsa -out base.key 2048
@@ -51,8 +51,7 @@
 
    ```
 3. 将新生成的证书替换，每条指令执行完后执行 `y`并回车
-   ```
-    
+   ```bash
     [root@server-test-211 ngrok]# cp base.pem assets/client/tls/ngrokroot.crt
 
     [root@server-test-211 ngrok]# cp server.crt assets/server/tls/snakeoil.crt
@@ -62,7 +61,7 @@
 
    ```
 4. 编译生成 `ngrokd` （服务端）
-   ```
+   ```bash
     [root@server-test-211 ngrok]# GOOS=linux GOARCH=amd64 make release-server
     GOOS="" GOARCH="" go get github.com/jteeuwen/go-bindata/go-bindata
     bin/go-bindata -nomemcopy -pkg=assets -tags=release \
@@ -78,19 +77,19 @@
     go install -tags 'release' ngrok/main/ngrok
    ```
    或者服务端、客户端一起生成
-   ```
+   ```bash
     [root@server-test-211 ngrok]# make release-server release-client
    ```
    生成在 `~/ngrok/bin/`目录中
 
 
    > 如果 `GOOS=linux GOARCH=amd64` 无法设置 `go` 配置信息，可执行以下指令
-   ```
-    export GOOS=linux
-    export GOARCH=amd64
+   ```bash
+    [root@server-test-211 ngrok]# export GOOS=linux
+    [root@server-test-211 ngrok]# export GOARCH=amd64
    ```
    然后通过`go env`查看配置信息
-   ```go
+   ```bash
     [root@server-test-211 ngrok]# go env
     GOARCH="amd64"
     GOBIN=""
@@ -121,8 +120,8 @@
    ```
 
 5. 编译生成 `ngrok` （客户端）
-   ```
-    GOOS=windows GOARCH=amd64 make release-client
+   ```bash
+    [root@server-test-211 ngrok]# GOOS=windows GOARCH=amd64 make release-client
    ```
    生成在`~/ngrok/bin/windows_amd64/`目录中
    ```
@@ -134,7 +133,7 @@
    
 7. 运行 `Ngrok`
    
-   ```
+   ```bash
     [root@server-test-211 ngrok]# ./bin/ngrokd -tlsKey=server.key -tlsCrt=server.crt -domain="tunnel.ob.me" -httpAddr=":9000" -httpsAddr=":9001"
     [10:27:01 CST 2019/05/06] [INFO] (ngrok/log.(*PrefixLogger).Info:83) [metrics] Reporting every 30 seconds
     [10:27:01 CST 2019/05/06] [INFO] (ngrok/log.(*PrefixLogger).Info:83) [registry] [tun] No affinity cache specified
@@ -144,12 +143,12 @@
 
    ```
    服务端启动(后台运行)：
-   ```
-    nohup ngrokd -domain="tunnel.ob.me" -httpAddr=":9000" &
+   ```bash
+    [root@server-test-211 ngrok]# nohup ngrokd -domain="tunnel.ob.me" -httpAddr=":9000" &
    ```
 
 8. 开机自动启动ngrok服务
-   ```vim
+   ```bash
     [root@server-test-211 ~]# vi /etc/init.d/ngrok_start
     # 加入下面内容
     cd /home/kezai/ngrok/

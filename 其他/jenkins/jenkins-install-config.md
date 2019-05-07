@@ -150,3 +150,32 @@ Caused by: java.net.UnknownHostException: server-test-211: Name or service not k
 
 
 ## 通过 `Tomcat` 安装 `Jenkins`
+
+
+## 常见问题
+
+### git 版本问题或未安装
+![](snapshot/jenkins_problem_git1.png)
+![](snapshot/jenkins_problem_git.png)
+
+#### 解决方案
+1. git 版本过低或未安装，更新 git 版本
+
+   [linux 更新 git 版本](../linux/linux-update-git.md)
+
+    结束。
+
+2. git 执行文件路径不对
+   
+```bash
+[root@server-test-211 ~]# whereis git
+git: /usr/local/git
+```
+
+3. 填入正确的执行文件路径
+
+系统安装路径为 `/usr/local/git`
+
+执行文件路径为：`/us/local/git/bin/git`
+
+![](snapshot/jenkins_problem_git_solve.png)

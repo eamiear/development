@@ -1,6 +1,6 @@
 # Linux 安装 gitlab
 
-## 环境
+## 系统环境
 
 ```bash
 [root@server-test-211 ~]# head -n 1 /etc/issue
@@ -17,7 +17,7 @@ CentOS release 6.9 (Final)
 [root@server-test-211 ~]# sudo lokkit -s http -s ssh
 ```
 
-## 安装邮件通知
+## 安装邮件服务
 
 ```bash
 [root@server-test-211 ~]# sudo yum install postfix
@@ -83,6 +83,15 @@ Installed:
 
 Complete!
 ```
+## 浏览器查看
+
+默认 80 端口
+```
+http://gitlab.example.com
+```
+
+## 使用系统已有 NGINX 服务
+
 
 
 ## 常见问题

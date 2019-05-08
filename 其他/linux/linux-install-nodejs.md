@@ -1,6 +1,7 @@
-# linux 安裝nodejs
+# linux 安裝 nodejs
 
 进入安装目录或资源目录
+
 ```bash
 [root@server-test-211 ~]# cd /home/app/software/
 ```

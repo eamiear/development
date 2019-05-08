@@ -173,3 +173,7 @@ total 212
 [root@server-test-211 bin]# ps -ef|grep java  // 查看是否还有进程
 [root@server-test-211 bin]# ./shutdown.sh
 ```
+
+## 参考
+
+[JENKINS针对不同项目组对用户进行权限分配](https://www.cnblogs.com/kazihuo/p/9022899.html)

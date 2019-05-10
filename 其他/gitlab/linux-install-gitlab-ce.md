@@ -35,7 +35,7 @@ CentOS release 6.9 (Final)
 
 ## 安装 gitlab
 
-可在安装时设置外部访问链接
+可在安装时设置服务访问链接
 ```bash
 [root@server-test-211 ~]# sudo EXTERNAL_URL="http://gitlab.example.com" yum -y install gitlab-ce
 
@@ -83,11 +83,21 @@ Installed:
 
 Complete!
 ```
-## 浏览器查看
+
+## 浏览器访问
 
 默认 80 端口
 ```
 http://gitlab.example.com
+```
+
+## HTTPS 服务
+
+> 默认安装成功后，会自动生成 ssl 相关证书文件，如没有可根据下面步骤进行安装
+
+### 手动创建 ssl 目录
+```bash
+[root@iZbp19xg5vv2b5wnt0avavZ ~]# mkdir -p /etc/gitlab/ssl
 ```
 
 ## 使用系统已有 NGINX 服务

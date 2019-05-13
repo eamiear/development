@@ -20,7 +20,7 @@ events {
 
 
 http {
-    include       mime.types;    # 文件拓展名与文件类型映射表
+    include       mime.types;    # 文件拓展名与文件类型映射表， 如 include /etc/nginx/mime.types
     default_type  application/octet-stream; # 默认文件类型，默认为text/plain
 
     # 自定义日志格式
@@ -45,6 +45,10 @@ http {
     # 设置请求缓冲
     #client_header_buffer_size 128k;
     #large_client_header_buffers 4 128k;
+
+    # 多个虚拟服务模块（server块）时，拆分各个服务配置到不同的配置文件，方便管理
+    # 如 /etc/nginx/conf.d/ura.com.conf  /etc/nginx/conf.d/api.ura.conf
+    include /etc/nginx/conf.d/*.conf
 
     # 设定虚拟主机配置
     server {
@@ -83,6 +87,7 @@ http {
         }
 
         # proxy the PHP scripts to Apache listening on 127.0.0.1:80
+        # 将 PHP 脚本代理到 Apache 监听 127.0.0.1：80
         #
         #location ~ \.php$ {
         #    proxy_pass   http://127.0.0.1;

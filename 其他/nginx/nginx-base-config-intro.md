@@ -65,13 +65,21 @@ http {
 
 	
 
+        # 定义错误提示页面
         #error_page  404              /404.html;
 
         # redirect server error pages to the static page /50x.html
-        #
         error_page   500 502 503 504  /50x.html;
         location = /50x.html {
             root   html;
+        }
+
+        # 静态文件，nginx自己处理
+        location ~ ^/(images|javascript|js|css|flash|media|static)/ {
+            
+            #过期30天，静态文件不怎么更新，过期可以设大一点，
+            #如果频繁更新，则可以设置得小一点。
+            expires 30d;
         }
 
         # proxy the PHP scripts to Apache listening on 127.0.0.1:80

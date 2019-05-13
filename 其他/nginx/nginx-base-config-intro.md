@@ -1,5 +1,7 @@
 # NGINX 基础配置
 
+## 配置详情
+
 ```bash
 #user  nobody nobody;   # 配置用户或组
 worker_processes  1;    # 允许生成的进程数，默认1。通常设置和cpu数量相等
@@ -150,3 +152,13 @@ http {
 }
 
 ```
+
+## 参考
+
+[Nginx中文文档](http://www.nginx.cn/doc/)
+
+[增加nginx虚拟主机配置文件(conf.d)](https://www.cnblogs.com/fps2tao/p/9958009.html)
+
+[nginx配置文件nginx.conf conf.d(一般都放这个目录下)](https://blog.csdn.net/qq_34625397/article/details/51460209)
+
+[nginx从入门到实践](https://juejin.im/post/5a2600bdf265da432b4aaaba#heading-102)

@@ -1,30 +1,30 @@
 # linux安装redis
 
-1.  进入安装目录
+## 进入安装目录
  
 ```bash
 [root@server-test-211 ~]# cd /home/app/software
 ```
 
-2. 下载redis资源
+## 下载redis资源
 
 ```bash
 [root@server-test-211 software]# wget http://download.redis.io/releash/redis-4.0.8.tar.gz
 ```
 
-3. 解压
+## 解压
 
 ```bash
 [root@server-test-211 software]# tar xzvf redis-4.0.8.tar.gz
 ```
 
-4. 重命名
+## 重命名
 
 ```bash
 [root@server-test-211 software]# mv redis-4.0.8 redis
 ```
 
-5. 安装
+## 安装
 
 ```bash
 [root@server-test-211 software]# cd redis
@@ -36,7 +36,7 @@
 [root@server-test-211 src]# make install PREFIX=/usr/local/redis
 ```
 
-6. 配置文件复制到安装目录
+## 配置文件复制到安装目录
 
 ```bash   
 [root@server-test-211 src]# cd /usr/local/redis/
@@ -44,7 +44,7 @@
 [root@server-test-211 redis]# mv /home/app/software/redis/redis.conf /usr/local/redis/etc
 ```
 
-7. 配置 redis 为后台启动
+## 配置 redis 为后台启动
 
 >将 `daemonize no `改为为 `daemonize yes`
 
@@ -52,7 +52,7 @@
 [root@server-test-211 redis]# vi /usr/local/redis/etc/redis.conf
 ```
 
-8. 配置 redis 密码
+## 配置 redis 密码
 
 ```bash
 [root@server-test-211 redis]# vi /usr/local/redis/etc/redis.conf
@@ -63,13 +63,13 @@
 > 取消注释并将 `requirepass foobared` 改为 `requirepass “123456”`
 
 
-9. 启动 redis 服务
+## 启动 redis 服务
 
 ```bash
 [root@server-test-211 redis]# /usr/local/redis/bin/redis-server /usr/local/redis/etc/redis.conf
 ```
 
-10. 开机启动 redis 服务
+## 开机启动 redis 服务
 
 ```bash
 [root@server-test-211 redis]# vi /etc/rc.local
@@ -78,7 +78,7 @@
 > 添加 `/usr/local/redis/bin/redis-server /usr/local/redis/etc/reids.conf`
 
 
-11. 启动 redis-cli 检测是否启动成功（1）
+## 启动 redis-cli 检测是否启动成功（1）
 
 ```bash
 [root@server-test-211 redis]# cd /usr/local/redis/bin/
@@ -89,25 +89,25 @@
 > 2)  登录： `auth "123456"`，返回 `OK` 即登录成功
 > 3)  设置缓存数据
 
-12. 检测 redis 是否启动(2)
+## 检测 redis 是否启动(2)
 
-1) 进程检测
+1.  进程检测
 ```bash
 [root@server-test-211 bin]# ps -ef | grep redis
 ```
-2) 端口检测
+2. 端口检测
 
 ```bash
 [root@server-test-211 bin]# netstat -lntp | grep 6379
 ```
 
-13. 停止 redis 服务
+## 停止 redis 服务
 ```bash 
 [root@server-test-211 bin]# redis-cli shutdown
 [root@server-test-211 bin]# ps -ef | grep redis
 [root@server-test-211 bin]# kill [进程pid]
 ```
-14. 卸载 redis
+## 卸载 redis
 
 ```bash
 [root@server-test-211 bin]# rm -rf /usr/local/redis  // 删除安装目录

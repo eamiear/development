@@ -11,7 +11,7 @@
 	* [Audio and Video](前端开发/HTML模块/HTML5/audio_and_video.md)
 	* [Web Workers](前端开发/HTML模块/HTML5/web_workers.md)
 	* [Indexed DB](前端开发/HTML模块/HTML5/indexed_db.md)
-	* [Offline\/Cache](前端开发/HTML模块/HTML5/offline_cache.md)
+	* [Offline-Cache](前端开发/HTML模块/HTML5/offline_cache.md)
 	* [WebSockets](前端开发/HTML模块/HTML5/websockets.md)
 	* [WebRTC](前端开发/HTML模块/HTML5/webrtc.md)
 	* [WebGL](前端开发/HTML模块/HTML5/webgl.md)
@@ -21,7 +21,7 @@
 	* [Geolocation](前端开发/HTML模块/HTML5/geolocation.md)
 	
 * [HTML基础](前端开发/HTML模块/HTML基础.md)
-	* [行内\_块级元素](前端开发/HTML模块/HTML基础/行内_块级元素.md)
+	* [行内-块级元素](前端开发/HTML模块/HTML基础/行内_块级元素.md)
 	* [DOCTYPE和浏览器的渲染模式](前端开发/HTML模块/HTML基础/DOCTYPE和浏览器的渲染模式.md)
 	* [Meta标签](前端开发/HTML模块/HTML基础/Meta标签.md)
 	* [Viewport](前端开发/HTML模块/HTML基础/viewport.md)
@@ -49,11 +49,11 @@
 * [JavaScript基础](前端开发/JavaScript模块/JavaScript基础.md)
 	* [作用域](前端开发/JavaScript模块/JavaScript基础/作用域.md)
 	* [闭包](前端开发/JavaScript模块/JavaScript基础/闭包.md)
-	* [原型\_原型链](前端开发/JavaScript模块/JavaScript基础/原型_原型链.md)
+	* [原型-原型链](前端开发/JavaScript模块/JavaScript基础/原型_原型链.md)
 	* [立即执行函数](前端开发/JavaScript模块/JavaScript基础/立即执行函数.md)
 	* [this](前端开发/JavaScript模块/JavaScript基础/this.md)
-	* [事件流\_事件模型](前端开发/JavaScript模块/JavaScript基础/事件流_事件模型.md)
-	* [事件代理\_委托](前端开发/JavaScript模块/JavaScript基础/事件代理_事件委托.md)
+	* [事件流-事件模型](前端开发/JavaScript模块/JavaScript基础/事件流_事件模型.md)
+	* [事件代理-委托](前端开发/JavaScript模块/JavaScript基础/事件代理_事件委托.md)
 	
 * [JavaScript进阶](前端开发/JavaScript模块/JavaScript进阶.md)
 	* [javascript垃圾收集机制与内存泄漏](前端开发/JavaScript模块/JavaScript进阶/javascript垃圾收集机制与内存泄漏.md)
@@ -71,12 +71,12 @@
 * [JavaScript设计模式](前端开发/JavaScript模块/JavaScript设计模式.md)
 	* [Singleton](前端开发/JavaScript模块/JavaScript设计模式/singleton.md)
 
-* [MV_Patterns](前端开发/JavaScript模块/MV_Patterns.md)
+* [MV* Patterns](前端开发/JavaScript模块/MV_Patterns.md)
 	* [MVC](前端开发/JavaScript模块/MV_Patterns/mvc.md)
 	* [MVP](前端开发/JavaScript模块/MV_Patterns/mvp.md)
 	* [MVVM](前端开发/JavaScript模块/MV_Patterns/mvvm.md)
 
-* [JavaScript框架_库](前端开发/JavaScript模块/JavaScript框架.md)
+* [JavaScript框架-库](前端开发/JavaScript模块/JavaScript框架.md)
 	* [Backbone](前端开发/JavaScript模块/JavaScript框架/backbone.md)
 	* [Angular](前端开发/JavaScript模块/JavaScript框架/angular.md)
 	* [AngularJS基础概念](前端开发/JavaScript模块/JavaScript框架/AngularJS基础概念.md)
@@ -110,7 +110,7 @@
 
 * [JavaScript资源](前端开发/JavaScript模块/JavaScript资源/JavaScript资源.md)
 
-### [WebApp](前端开发/WebApp.md)
+### [Web App](前端开发/WebApp.md)
 * [布局](前端开发/WebApp/layout.md)
 
 ### [前端工具](前端开发/前端工具.md)
@@ -122,7 +122,7 @@
 	* [Bower](前端开发/前端工具/包管理工具/Bower.md)
 	* [Bower使用](前端开发/前端工具/包管理工具/Bower/bower.md)
 
-* [SASSCompass](前端开发/前端工具/SASSCompass.md)
+* [SASS-Compass](前端开发/前端工具/SASSCompass.md)
 	* [SASS](前端开发/前端工具/SASSCompass/SASS.md)
 * [SASS使用](前端开发/前端工具/SASSCompass/SASS/sass.md)
 	* [Compass](前端开发/前端工具/SASSCompass/Compass.md)
@@ -145,7 +145,7 @@
 ### [开发知识点](前端开发/开发知识点.md)
 * [IE](前端开发/开发知识点/IE.md)
 	* [IE-blur事件](前端开发/开发知识点/IE/IE-blur事件.md)
-	* [IE8 图片平铺滤镜](前端开发/开发知识点/IE/IE8 图片平铺滤镜.md)
+	* [IE8图片平铺滤镜](前端开发/开发知识点/IE/IE8 图片平铺滤镜.md)
 	* [IE8 JSON中文乱码问题](前端开发/开发知识点/IE/IE8JSON中文乱码问题.md)
 	* [IE8-9 背景渐变](前端开发/开发知识点/IE/IE8-9 背景渐变.md)
 	* [背景透明](前端开发/开发知识点/IE/背景透明.md)
@@ -216,7 +216,7 @@
     * [复制已有项目构建新项目（部署报错）](后台开发/开发知识点/ide/复制已有项目构建新项目（部署报错）.md)
 
 ## 其他
-### [gis开发](其他/gis开发.md)
+### [gis开发]()
 
 ### [git]()
 * [git工作流](其他/git/gitflow.md)
@@ -242,13 +242,13 @@
 * [linux安装redis](其他/linux/linux-install-redis.md)
 * [linux更新git](其他/linux/linux-update-git.md)
 
-### [nginx]
+### [nginx]()
 * [NGINX基础配置](其他/nginx\nginx-base-config-intro.md)
 
-### [ngrok]
+### [ngrok]()
 * [ngrok安装配置](其他/ngrok\linux-install-ngrok.md)
 
-### [xshell]
+### [xshell]()
 * [xshell登录服务器](其他/xshell\xshell-login.md)
 
 ### [辅助工具](其他/辅助工具/README.md)
@@ -263,7 +263,7 @@
 * [思维导图](其他/学习文件/思维导图.md)
 	* [Babel](其他/学习文件/思维导图/Babel.md)
 
-### [ocx](其他/OCX.md)
+### [ocx]()
 
 ## 第三方相关
 ### [qq](第三方相关/QQ/index.md)

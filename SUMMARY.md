@@ -216,25 +216,55 @@
     * [复制已有项目构建新项目（部署报错）](后台开发/开发知识点/ide/复制已有项目构建新项目（部署报错）.md)
 
 ## 其他
-### [Gis开发](其他/gis开发.md)
-* [arcgisjs](其他/gis开发/arcgis.md)
-	* [arcgisjs](其他/gis开发/arcgisjs/arcgisjs.md)
+### [gis开发](其他/gis开发.md)
 
-### [辅助工具](其他/辅助工具.md)
-* [gitbook](其他/辅助工具/gitbook.md)
+### [git]()
+* [git工作流](其他/git/gitflow.md)
+
+### [gitlab]()
+* [Linux安装gitlab](其他/gitlab/linux-install-gitlab-ce.md)
+
+### [golang]()
+* [Linux安装golang](其他/golang/linux-install-golang.md)
+
+### [jenkins]()
+* [jenkins常用指令](其他/jenkins/jenkins-normal-command.md)
+* [Linux安装jenkins](其他/jenkins/jenkins-install-config.md)
+* [jenkins配置用户权限](其他/jenkins/jenkins-config-role.md)
+* [Jenkins配置GitHub项目](其他/jenkins/jenkins-github-config.md)
+* [Jenkins构建shell脚本](其他/jenkins/jenkins-build-shell.md)
+* [Linux修改Jenkins主目录(JENKINS_HOME)](其他/jenkins/jenkins-update-home-path.md)
+* [Jenkins配置github私有项目](其他/jenkins/jenkins-github-private-repo.md)
+
+### [linux]()
+* [linux常用指令](其他/linux/linux-normal-command.md)
+* [linux安装nodejs](其他/linux/linux-install-nodejs.md)
+* [linux安装redis](其他/linux/linux-install-redis.md)
+* [linux更新git](其他/linux/linux-update-git.md)
+
+### [nginx]
+* [NGINX基础配置](其他/nginx\nginx-base-config-intro.md)
+
+### [ngrok]
+* [ngrok安装配置](其他/ngrok\linux-install-ngrok.md)
+
+### [xshell]
+* [xshell登录服务器](其他/xshell\xshell-login.md)
+
+### [辅助工具](其他/辅助工具/README.md)
+* [gitbook]()
 	* [gitbook使用](其他/辅助工具/gitbook/gitbook使用.md)
 
-* [IDE](其他/辅助工具/IDE.md)
+* [IDE]()
 	* [IntelliJ IDEA](其他/辅助工具/IDE/IntelliJ-IDEA.md)
 
-## [学习文件](其他/学习文件.md)
+## [学习文件](其他/学习文件/README.md)
 
 * [思维导图](其他/学习文件/思维导图.md)
 	* [Babel](其他/学习文件/思维导图/Babel.md)
 
-### [OCX](其他/OCX.md)
-* [命令行注册](其他/OCX/命令行注册.md)
+### [ocx](其他/OCX.md)
 
 ## 第三方相关
-### [QQ](第三方相关/QQ/index.md)
+### [qq](第三方相关/QQ/index.md)
 ### [旺旺](第三方相关/旺旺/index.md)

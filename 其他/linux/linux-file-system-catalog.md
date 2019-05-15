@@ -22,8 +22,7 @@
 | /usr     | 用户二进制目录，大量用户级的GNU工具和数据文件都存储在这里 |
 | /var     | 可变目录，用以存放经常变化的文件，比如日志文件 |
 
-
-```
+```bash
 -rw-r--r--.   1 root root    0 May 10 12:21 1
 lrwxrwxrwx.   1 root root    7 May 10 12:14 bin
 dr-xr-xr-x.   4 root root 4096 May 10 12:35 boot

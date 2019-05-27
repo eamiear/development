@@ -1,3 +1,0 @@
-# Knockout
-
->MVVM

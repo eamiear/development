@@ -12,14 +12,14 @@
     "request": "attach",
     "name": "Attach",
     "port": 5858
-    }
+}
 ```
 
 ### 执行脚本
 
 执行程序，并制定端口，端口与launch.json文件中的端口一致。
 
-```bash
+```node
 node --inspect-brk=5858  ../node_modules/webpack/bin/webpack --config ./webpack.config.js
 
 ```
